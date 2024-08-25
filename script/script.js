@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
             cardTitle.classList.toggle("hidden");
             cardBody.classList.toggle("expanded");
+            cardBody.querySelector('input[type="radio"]').checked=true;
         });
     });
 });
